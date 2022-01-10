@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              margin: 0;
+              font-family: Arial;
+            }
+            
+            .header {
+              text-align: center;
+              padding: 40px;
+            }
+            
+            .row {
+              display: -ms-flexbox; /* IE10 */
+              display: flex;
+              -ms-flex-wrap: wrap; /* IE10 */
+              flex-wrap: wrap;
+              padding: 40px 40px;
+            }
+            
+            /* Create four equal columns that sits next to each other */
+            .column {
+              -ms-flex: 50%; /* IE10 */
+              flex: 50%;
+              max-width: 50%;
+              padding: 40px 40px;
+            }
+            
+            .column img {
+              margin-top: 30px;
+              vertical-align: middle;
+              width: 100%;
+            }
+            
+            /* Responsive layout - makes a two column-layout instead of four columns */
+            @media screen and (max-width: 800px) {
+              .column {
+                -ms-flex: 50%;
+                flex: 50%;
+                max-width: 50%;
+              }
+            }
+            
+            /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+              .column {
+                -ms-flex: 100%;
+                flex: 100%;
+                max-width: 100%;
+              }
+            }
+        </style>
+            
+        <title>Fashion</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color: black;" >
+      <nav class="navbar navbar-expand-sm bg-none navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="PHOTOGRAPHY.html">
+          <h3>Home</h3>
+        </a>
+      <ul class="mx-auto"></ul>
+      <ul class="mx-auto"></ul>
+      <ul class="mx-auto"></ul>
+
+        <!-- Links -->
+        <ul class="navbar-nav mx-auto ">
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  id="navbardrop" data-toggle="dropdown">
+              <h4>Portfolio</h4>
+            </a>
+            <div class="dropdown-menu bg-dark">
+              <a class="dropdown-item text-light" href="Portraits.html">Portraits</a>
+              <a class="dropdown-item text-light" href="Places.html">Places</a>
+              <a class="dropdown-item text-light" href="Fashion.html">Fashion</a>
+            </div>
+          </li>
+          <li class="nav-item " >
+            <a class="nav-link"  href="About.html"><h4>ABOUT</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Albums.html"><h4>ALBUMS</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html"><h4>CONTACT</h4></a>
+          </li>
+        </ul>
+      </nav>
+          <div class="container text-light mx-auto">
+              <h1>Places</h1>
+          </div>
+
+          <div class="row"> 
+            <div class="column">
+              <img src="https://images.squarespace-cdn.com/content/v1/554951b2e4b05c3a7e4ea269/1600963703376-MSKFZOQ7EQZL79410KVR/image%2B7.jpg?format=1500w"  style="width:100%">
+              <img src="https://images.nowfashion.com/mRyNA-tqWFCMhp_nH2FH96lRvOTtdgSJeXciiHq8plE/fill/600/900/ce/1/bG9jYWw6Ly8vcGhv/dG9zLzMwNDM3LzEx/NzUyNS9jb21tZS1k/ZXMtZ2FyY29ucy1z/aGlydC1jb2xsZWN0/aW9uLXNwcmluZy1z/dW1tZXItMjAyMi0z/MDQzNy1sb29rcy0y/MDIxMDcxMy0xNDcy/ODM2L0NvbW1lX2Rl/c19HYXJjb25zX1No/aXJ0X1NTMjAyMl8w/MS0xNjI2MTU5MzI1/LmpwZw.jpg" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="https://fashionisers.com/wp-content/uploads/2019/01/international-fashion-trends1-1160x720.jpeg" style="width:100%">
+              <img src="https://images.theconversation.com/files/146533/original/image-20161118-19352-186bcu6.jpg?ixlib=rb-1.1.0&rect=0%2C617%2C6313%2C3062&q=45&auto=format&w=1356&h=668&fit=crop" style="width:100%">
+              <img src="https://i.guim.co.uk/img/media/16cd0d7c9b729b7a12a96e1e8e1f645eff359bfe/0_20_1333_799/master/1333.jpg?width=300&quality=85&auto=format&fit=max&s=a3ae1f2aea59e038a307fe4eae6bcb0b" style="width:100%">
+              <img src="https://media-exp1.licdn.com/dms/image/C4D1BAQH_-MPoR3IxIw/company-background_10000/0/1607441172662?e=2159024400&v=beta&t=9ptL2qcgRmHp-B6NM15vDrAPIv7jGqNirRRCCKc-0lc" style="width:100%">
+            </div>
+          </div>
+    </body>
+</html>

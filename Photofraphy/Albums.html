@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <style>
+        * {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 1000px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+</style>
+        <title>Fashion</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color: black;" >
+        <nav class="navbar navbar-expand-sm bg-none navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="PHOTOGRAPHY.html">
+              <h3>Home</h3>
+            </a>
+          <ul class="mx-auto"></ul>
+          <ul class="mx-auto"></ul>
+          <ul class="mx-auto"></ul>
+  
+            <!-- Links -->
+            <ul class="navbar-nav mx-auto ">
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"  id="navbardrop" data-toggle="dropdown">
+                  <h4>Portfolio</h4>
+                </a>
+                <div class="dropdown-menu bg-dark">
+                  <a class="dropdown-item text-light" href="Portraits.html">Portraits</a>
+                  <a class="dropdown-item text-light" href="Places.html">Places</a>
+                  <a class="dropdown-item text-light" href="Fashion.html">Fashion</a>
+                </div>
+              </li>
+              <li class="nav-item " >
+                <a class="nav-link"  href="About.html"><h4>ABOUT</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Albums.html"><h4>ALBUMS</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html"><h4>CONTACT</h4></a>
+              </li>
+            </ul>
+          </nav>
+              <h1 style="text-align: center;color: white;" >Albums</h1>
+
+          <div class="row" style="margin-left: +100px;">
+           <div class="column" >
+             <div class="container">
+                 <a href="Albums_SummerColor.html" >
+              <img src="https://png.pngtree.com/thumb_back/fh260/background/20190417/pngtree-summer-beach-bright-background-image_103306.jpg" alt="Avatar" class="image">
+                <div class="overlay">Summer Color</div>
+            </a>
+             </div>
+           </div>
+           <div class="column">
+             <div class="container" style="width: 500px;height: 260px;">
+                <a href="Albums_Folkestone.html" >
+              <img src="https://www.creativefolkestone.org.uk/uploads/events/28419615-9552-4525-9605-fea81dd8ef8b.jpg" alt="Avatar" class="image" style="width: 500px;height: 260px;">
+                <div class="overlay">Folkestone:Portrakr of a Community</div>
+                </a>
+             </div>
+           </div>
+           <div class="column" style="margin-top: +20px;">
+            <div class="container ">
+                <a href="Albums_journey.html" >
+             <img src="https://wikitravel.org/upload/shared//0/09/Macau_banner.jpg" alt="Avatar" class="image">
+               <div class="overlay">journey to macau</div>
+               </a>
+            </div>
+          </div>
+          </div>
+
+    </body>
+</html>
